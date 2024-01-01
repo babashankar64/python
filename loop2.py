@@ -24,15 +24,15 @@
 #             print('prime')
 #             break
 
-# k = int(input('enter'))
+k = int(input('enter'))
 
-# for j in range(2,k):
-#     for i in range(2,j):
-#             if j % i == 0:
-#                 continue
-#
-#             elif j % i != 0:
-#                 print(i,j)
+for j in range(2,k):
+    for i in range(2,j):
+            if j % i == 0:
+                continue
+
+            elif j % i != 0:
+                print(i,j)
 data = ['ind','usa','uk']
 print('M')
 for i in data:

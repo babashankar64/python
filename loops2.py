@@ -1,12 +1,12 @@
-# inp = ['ind','usa','uk','germany']
-# inp= set(inp)
-# print(inp)
-# out=[]
-# for k in inp:
-#     print(k)
-#     x=k.upper()
-#     # out.append(x)
-# print(out,end=' ')
+inp = ['ind','usa','uk','germany']
+inp= set(inp)
+print(inp)
+out=[]
+for k in inp:
+    print(k)
+    x=k.upper()
+    # out.append(x)
+print(out,end=' ')
 
 
 data = 'google.com'

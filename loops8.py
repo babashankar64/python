@@ -1,6 +1,8 @@
 datastr = ['upper','lower','isdigit','split','join']
 for i in datastr:
     if i=='isdigit':
-        pass
+        break
     print(i)
 print('continue')
+
+
