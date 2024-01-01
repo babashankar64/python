@@ -6,3 +6,8 @@ for i in datastr:
 print('continue')
 
 
+data = [('list','append'),['str','replace'],{'tuple','index'}]
+for i,j in data:
+    print(j,i)
+
+
