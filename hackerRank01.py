@@ -53,3 +53,15 @@ for k in a:
     if k>p:
         p=k
 print(p)
+
+
+x=['rn1', 'rn2', 'rn3', 'rn4']
+y=['ramesh','kiran','ajay']
+data = {}
+if len(x)>len(y):
+	for i in range(len(x)-1):
+		data[x[i]]=y[i]
+else:
+	for i in range(len(y)-1):
+		data[x[i]]=y[i]
+print(data)

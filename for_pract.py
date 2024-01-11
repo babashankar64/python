@@ -52,3 +52,35 @@ for i in range(1,n+1):
     for k in range(1, i+1):
         print(i,end='')
     print()
+
+data1={1:2,4:5,3:9}
+data2={4:8,3:10,1:15}
+d={}
+for i in data1:
+    if i in data2:
+        d[data1[i]]=data2[i]
+print(d)
+
+inp='a6g4a3j3'
+for i in range(0,len(inp),2):
+    out=inp[i]*int(inp[i+1])
+    print(out,end='')
+
+
+inp='aaaaaaggggaaajjj'
+current_char=inp[0]
+count=1
+string_c=''
+for i in range(1,len(inp)):
+    if inp[i]==current_char:
+        count= count +1
+    else:
+        string_c= string_c + inp[i-1]+str(count)
+        current_char = inp[i]
+        count=1
+string_c= string_c + inp[i-1]+str(count)
+print(string_c)
+
+
+
+
