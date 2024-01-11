@@ -9,25 +9,4 @@ if out:
     print(out.group())
 else:
     print('not found')
-analyses chayali why
-content ni repeat chayali
-anna classes foundation
 
-frequant breaks
-why anwser ela vachindhi
-practice chayali
-
-
-overall content em untadhi
-    all ready known
-    over view
-    analysis
-    like group dicurtion
-
-2nd time
-
-
-
-    friend group discution
-    10 cheap the 4 add avuthai
-    overall efficiency high
